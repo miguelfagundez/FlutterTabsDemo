@@ -1,6 +1,32 @@
 # flutter_tabs_demo
 
-A new Flutter application.
+Using a custom Bottom Navegation Bar.
+
+## Include this dependency in pubspec.yaml: 
+
+```
+  provider: ^4.3.3   
+```
+## UI Provider: 
+
+I created a provider to handle UI data in my app.
+
+```
+  import 'package:flutter/material.dart';
+  export 'package:provider/provider.dart';
+
+  class UiProvider extends ChangeNotifier{
+
+    .... // Check code for details
+  }
+```
+
+Then, I can create every screen in a separate file. Check code for details.
+
+## Visual result:
+<p align = "center">
+<img src="/images/01.gif" width="250">
+</p>
 
 ## Getting Started
 
